@@ -1,6 +1,7 @@
-let url = "http://test.blog:9092/";
+import url from './url.js';
 
 async function getSites(){
+  var response;
   return response = await $.ajax({
     type: 'get',
     url: url + "get/site/",

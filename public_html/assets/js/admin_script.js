@@ -9,7 +9,7 @@
 //
 //   }
 // });
-let url = "http://test.blog:9092/";
+import url from './url.js';
 
 $(document).ready(function(){
     $("#adminLogin").submit(function(e){
