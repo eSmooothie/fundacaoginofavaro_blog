@@ -9,7 +9,7 @@
 //
 //   }
 // });
-let url = "http://192.168.254.104:9092/";
+let url = "http://test.blog:9092/";
 
 $(document).ready(function(){
     $("#adminLogin").submit(function(e){
@@ -44,6 +44,9 @@ $(document).ready(function(){
       formData.append("name",$("input[name=name]").val());
       formData.append("latitude",$("input[name=latitude]").val());
       formData.append("longitude",$("input[name=longitude]").val());
+      formData.append("description",$("textarea[name=description]").val());
+      formData.append("address", $("input[name=address]").val());
+      
       for(var x = 0; x < ins; x++){
         formData.append("imgs[]", eleFile.files[x]);
       }

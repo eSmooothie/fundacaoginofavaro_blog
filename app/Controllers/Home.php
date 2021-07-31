@@ -92,7 +92,7 @@ class Home extends BaseController
 	private function uploadImage($imgList,$siteID){
 		foreach ($imgList as $key => $img) {
 			$name = $img->getRandomName();
-			$path = FCPATH.'uploads\\';
+			$path = FCPATH.'uploads/';
 			$compressImage = \Config\Services::image()->withFile($img)->resize(700, 700, true, 'height')->save($path.$name);
 
 			$data = [

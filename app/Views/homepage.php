@@ -55,7 +55,7 @@
             <div class="col">
                 <div class="">
                   <div class="d-flex justify-content-center">
-                      <img class="img-fluid" src="https://via.placeholder.com/200x250" alt="">
+                      <img class="img-fluid" src="<?php echo base_url();?>/image/084_edited.jpg" alt="" style="height:250;width:200;">
                   </div>
 
                     <article>
@@ -81,35 +81,35 @@
                         <h2 class="post-title">Timor-Leste: A Better Future&nbsp;Ahead<br></h2>
                         <h3 class="post-subtitle"></h3>
                     </a>
-                    <p class="post-meta">Posted by&nbsp;<a href="#">Author on Date</a></p>
+                    <p class="post-meta">Posted by&nbsp;Francis Ian Montecalvo</p>
                 </div>
                 <hr>
                 <div class="post-preview"><a href="<?php echo base_url(); ?>/blog/post/2" target="_blank">
                         <h2 class="post-title">Deep Gulf and Fundação Gino Fávaro partnership<br></h2>
                         <h3 class="post-subtitle"></h3>
                     </a>
-                    <p class="post-meta">Posted by&nbsp;<a href="#">Author on Date</a></p>
+                    <p class="post-meta">Posted by&nbsp;Francis Ian Montecalvo</p>
                 </div>
                 <hr>
                 <div class="post-preview"><a href="<?php echo base_url(); ?>/blog/post/3" target="_blank">
                         <h2 class="post-title">Energy for Our People<br></h2>
                         <h3 class="post-subtitle"></h3>
                     </a>
-                    <p class="post-meta">Posted by&nbsp;<a href="#">Author on Date</a></p>
+                    <p class="post-meta">Posted by&nbsp;Francis Ian Montecalvo</p>
                 </div>
                 <hr>
                 <div class="post-preview"><a href="<?php echo base_url(); ?>/blog/post/4" target="_blank">
                         <h2 class="post-title">Signing of MOU<br></h2>
                         <h3 class="post-subtitle"></h3>
                     </a>
-                    <p class="post-meta">Posted by&nbsp;<a href="#">Author on Date</a></p>
+                    <p class="post-meta">Posted by&nbsp;Francis Ian Montecalvo</p>
                 </div>
                 <hr>
                 <div class="post-preview"><a href="<?php echo base_url(); ?>/blog/post/5" target="_blank">
                         <h2 class="post-title">The Potential Development of Soibada<br></h2>
                         <h3 class="post-subtitle"></h3>
                     </a>
-                    <p class="post-meta">Posted by&nbsp;<a href="#">Author on Date</a></p>
+                    <p class="post-meta">Posted by&nbsp;Francis Ian Montecalvo</p>
                 </div>
             </div>
         </div>
@@ -120,12 +120,25 @@
                 <div class="col-md-10 col-lg-8 mx-auto">
                   <ul class="list-group">
                     <li class="list-group-item mb-5">Contact Us:
-                      <p class="m-0">Email: fundacaoginofavaro@gmail.com</p>
-                      <p class="m-0">Mr. Gino Favaro: +670 772 31058</p>
-                      <p class="m-0">Dr. Joao Concalves: +670 782 58770</p>
+                      <p class="m-2"><i class="fa fa-envelope-o"></i> Email: <a href="mailto:fundacaoginofavaro@gmail.com" style="text-decoration:none;">fundacaoginofavaro@gmail.com</a></p>
+                      <div class="d-flex justify-content-around m-5">
+                        <div class="">
+                          <p class="m-0">President Director</p>
+                          <p class="m-0">Mr. Gino Favaro</p>
+                          <p class="m-0"><i class="fa fa-phone"></i> : +670 772 31058</p>
+                        </div>
+                        <div class="">
+                          <p class="m-0">President Director of Administration</p>
+                          <p class="m-0">Dr. Joao Concalves</p>
+                          <p class="m-0"><i class="fa fa-phone"></i> : +670 782 58770</p>
+                        </div>
+                      </div>
+
+
                     </li>
                   </ul>
-                    <p class="text-muted copyright">Develop by: <a href="mailto:sherwin.sandoval026@gmail.com" style="text-decoration:none;">Sherwin D. Sandoval</a></p>
+                    <p class="text-muted copyright">This website develop by: <a href="mailto:sherwin.sandoval026@gmail.com" style="text-decoration:none;">Sherwin D. Sandoval</a></p>
+                    <p class="text-muted copyright">Blog information develop by: Francis Ian Montecalvo</p>
                     <p class="text-muted copyright">Copyright&nbsp;©&nbsp;Fundação Gino Fávaro 2021</p>
                 </div>
             </div>
@@ -134,7 +147,6 @@
     <script src="<?php echo base_url(); ?>/assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
     <script src="<?php echo base_url(); ?>/assets/js/clean-blog.js"></script>
-    <script src="<?php echo base_url(); ?>/assets/js/gmaps.js"></script>
     <script src="<?php echo base_url(); ?>/assets/js/Lightbox-Gallery.js"></script>
 </body>
 

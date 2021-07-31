@@ -63,8 +63,7 @@
                         </div>
                         <div style="margin-top: 20px;">
                           <label class="form-label">Description:</label>
-                          <textarea class="form-control form-control-lg" spellcheck="true" wrap="soft" name="description">
-                          </textarea></div>
+                          <textarea class="form-control form-control-lg" spellcheck="true" wrap="soft" name="description"></textarea></div>
                         <div style="margin-top: 20px;">
                           <label class="form-label">Add image:</label>
                           <input class="" type="file" name="site_img[]" id="addImg1" accept="image/jpeg, image/x-png" multiple >
