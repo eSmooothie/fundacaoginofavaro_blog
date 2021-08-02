@@ -55,7 +55,7 @@
             <div class="col">
                 <div class="">
                   <div class="d-flex justify-content-center">
-                      <img class="img-fluid" src="<?php echo base_url();?>/image/084_edited.jpg" alt="" style="height:250;width:200;">
+                      <img class="img-fluid" src="https://via.placeholder.com/200x250" alt="" style="height:250;width:200;">
                   </div>
 
                     <article>

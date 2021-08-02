@@ -35,6 +35,9 @@
         </nav>
     </header>
     <div class="container" style="margin-top: 30px;">
+      <div class="container mb-5">
+        <a class="btn btn-primary" href="<?php echo base_url();?>/admin/view/sites">View Sites</a>
+      </div>
         <div class="row row-cols-2">
             <div class="col">
                 <div>

@@ -59,11 +59,15 @@ $routes->add('explore/site/(:num)', 'Map::site/$1');
 //admin
 $routes->add('/admin/login/', 'Home::adminLogin');
 $routes->add('/admin/','Home::admin');
+$routes->add('/admin/view/sites','Home::viewSites');
+$routes->add('/admin/site/edit/(:num)','Home::editSite');
+$routes->add('/admin/sites/remove/(:num)','Home::removeSite');
 $routes->post('/admin/login/submit/','Home::validateCredentials');
 
-$routes->post('/add/site/','Home::addNewSite'); // add new site
-$routes->post('/add/image/site','Home::addImageSite'); // add new images in a site
-$routes->get('/get/site/','Home::getSite'); // get all site
+$routes->post('/add/site/','Api::addNewSite'); // add new site
+$routes->post('/add/image/site','Api::addImageSite'); // add new images in a site
+$routes->get('/get/site/','Api::getSite'); // get all site
+$routes->post('/edit/site/','Api::editSite');
 
 // responses
 $routes->add('map/load/site/(:num)', 'Map::loadMapSite/$1');
