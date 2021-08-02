@@ -35,14 +35,14 @@
 <body class="h-100 w-100" style="background: rgb(255,255,255);overflow-x: hidden;">
     <div class="row" style="height: 100%;">
 
-        <div class="col-xl-2 col-sm-3 overflow-auto vh-100" style="background: #fcfcfc;padding: 0px 0px 0px 12px;">
+        <div class="col-xl-3 col-sm-4 overflow-auto vh-100" style="background: #fcfcfc;padding: 0px 0px 0px 12px;">
           <div class="d-flex w-100">
             <a href="/" class="btn btn-white"><i class="fas fa-arrow-left" style="font-size: 12px;"></i></a>
           </div>
           <img id="siteImage" style="height: 200px;width: 100%;" height="200px" width="100%">
             <p id="welcomeText" class="mt-1 h5 d-block" style="padding-left: 15px;padding-top:15px;">Welcome to Timor Leste</p>
             <div class="dropdown w-100">
-              <button class="btn btn-secondary dropdown-toggle text-wrap" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              <button class="btn btn-secondary dropdown-toggle text-wrap w-100" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                 Fundação Gino Fávaro Promotional Sites
               </button>
               <ul class="dropdown-menu w-100" aria-labelledby="dropdownMenuButton1" id="siteList">
@@ -74,7 +74,7 @@
                 <div></div>
             </div>
         </div>
-        <div class="col-xl-10 col-sm-9" id="map" style="padding: 0px;"></div>
+        <div class="col-xl-9 col-sm-8" id="map" style="padding: 0px;"></div>
     </div>
 
     <script src="<?php echo base_url();?>/assets/bootstrap/js/bootstrap.min.js"></script>
