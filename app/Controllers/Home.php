@@ -51,6 +51,19 @@ class Home extends BaseController
 		echo view('admin_temp/footer');
 	}
 
+	public function removeSite(){
+		$siteID = $this->uri->getSegment(4);
+		$siteInfo = $this->siteModel->find($siteID);
+
+		$data = [
+			'info' => $siteInfo,
+		];
+
+		echo view('admin_temp/header');
+		echo view('admin_pages/deleteConfirmation',$data);
+		echo view('admin_temp/footer');
+	}
+
 	public function validateCredentials(){
 		header("Content-type:application/json");
 		// get passed data
@@ -66,10 +79,5 @@ class Home extends BaseController
 		return $this->setResponseFormat('json')->respond(null, 400,"Invalid Password.");
 		// redirect to
 	}
-
-
-
-
-
 
 }

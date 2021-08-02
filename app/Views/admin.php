@@ -72,7 +72,8 @@
                           <input class="" type="file" name="site_img[]" id="addImg1" accept="image/jpeg, image/x-png" multiple >
 
                         </div>
-                        <div class="d-flex justify-content-end"><button class="btn btn-primary" type="submit" style="margin-top: 20px;">SUBMIT</button></div>
+                        <div class="d-flex justify-content-end">
+                          <button class="btn btn-primary" type="submit" style="margin-top: 20px;">SUBMIT</button></div>
                     </form>
                 </div>
             </div>

@@ -2,7 +2,7 @@ import url from './url.js';
 
 $(
     function(){
-        $("form").submit(function(e){
+        $("#editLocation").submit(function(e){
             e.preventDefault();
             var formData = new FormData();
             var eleFile = document.getElementById('addImg1');
@@ -14,7 +14,7 @@ $(
             formData.append("longitude",$("input[name=longitude]").val());
             formData.append("description",$("textarea[name=description]").val());
             formData.append("address", $("input[name=address]").val());
-            
+
             for(var x = 0; x < ins; x++){
                 formData.append("imgs[]", eleFile.files[x]);
             }
@@ -39,7 +39,33 @@ $(
                     myModal.show();
                 }
             });
-      
+
           });
+
+        $("#removeSite").submit(function(e){
+          e.preventDefault();
+          var formData = new FormData();
+
+          formData.append("id",$("input[name=id]").val());
+          formData.append("name",$("input[name=siteName]").val());
+
+          $.ajax({
+            type: 'post',
+            url: url+'delete/site',
+            data: formData,
+            cache:false,
+            contentType: false,
+            processData: false,
+            success: function(data){
+              var myModal = new bootstrap.Modal(document.getElementById("responseModal"), {});
+              // info here
+              $("#responseBody").html(data);
+              myModal.show();
+            },
+            error: function(data){
+              console.log(data);
+            }
+          });
+        });
     }
 );

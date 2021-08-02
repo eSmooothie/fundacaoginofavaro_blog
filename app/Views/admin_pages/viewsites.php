@@ -14,7 +14,7 @@
                 </div>
                 <div class="d-flex justify-content-around">
                         <a href="<?php echo base_url();?>/admin/site/edit/<?php echo $site['ID'];?>" class="btn btn-primary w-50">Edit</a>
-                        <a href="#" class="btn btn-danger w-50">Remove</a>
+                        <a href="<?php echo base_url(); ?>/admin/site/remove/<?php echo $site['ID']; ?>" class="btn btn-danger w-50">Remove</a>
                 </div>
             </div>
             <?php
@@ -23,4 +23,3 @@
         </div>
     </div>
     <script type="module" src="<?php echo base_url(); ?>/assets/js/admin_view.js" charset="utf-8"></script>
-
