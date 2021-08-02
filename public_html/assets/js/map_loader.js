@@ -77,6 +77,7 @@ async function renderSite(site){
 
 
 $(document).ready(async function(){
+  var BING_KEY = 'AuhiCJHlGzhg93IqUH_oCpl_-ZUrIE6SPftlyGYUvr9Amx5nzA-WqGcPquyFZl4L';
   var sites = await getSites();
 
   var currentURL = window.location.href.split("/");
@@ -93,7 +94,7 @@ $(document).ready(async function(){
       }
     });
     var LatLng = [parseFloat(site["LAT"]), parseFloat(site["LNG"])];
-    var zoom = 18;
+    var zoom = 17;
   }else{
     document.getElementById('siteImage').src = url + "image/flag.png";
     var LatLng = [-8.8742, 125.7275 ]; // location
@@ -102,15 +103,11 @@ $(document).ready(async function(){
 
   var mymap = L.map('map').setView(LatLng, zoom);
 
-  var Esri_WorldImagery = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
-  	attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
-  });
 
   sites.forEach((item, i) => {
     var LatLng = [parseFloat(item["LAT"]),parseFloat(item["LNG"])];
     L.marker(LatLng).addTo(mymap).bindPopup(item["NAME"]);
   });
 
-
-  Esri_WorldImagery.addTo(mymap);
+  var binglayer = L.tileLayer.bing(BING_KEY).addTo(mymap);
 });
