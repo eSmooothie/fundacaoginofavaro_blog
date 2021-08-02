@@ -40,7 +40,7 @@
             <a href="/" class="btn btn-white"><i class="fas fa-arrow-left" style="font-size: 12px;"></i></a>
           </div>
           <img id="siteImage" style="height: 200px;width: 100%;" height="200px" width="100%">
-            <p id="welcomeText" class="mt-1 h5" style="padding-left: 15px;padding-top:15px;">Welcome to Timor Leste</p>
+            <p id="welcomeText" class="mt-1 h5 d-block" style="padding-left: 15px;padding-top:15px;">Welcome to Timor Leste</p>
             <div class="dropdown w-100">
               <button class="btn btn-secondary dropdown-toggle text-wrap" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                 Fundação Gino Fávaro Promotional Sites

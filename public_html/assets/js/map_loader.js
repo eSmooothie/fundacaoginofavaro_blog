@@ -96,7 +96,11 @@ $(document).ready(async function(){
     });
     var latLng = {lat: parseFloat(site["LAT"]), lon: parseFloat(site["LNG"])};
     var zoom = 17;
+    $('#welcomeText').removeClass("d-block");
+    $('#welcomeText').addClass("d-none");
   }else{
+    $('#welcomeText').removeClass("d-none");
+    $('#welcomeText').addClass("d-block");
     document.getElementById('siteImage').src = url + "image/flag.png";
     var latLng = {lon:125.7275, lat:-8.8742}; // location
     var zoom = 9;
@@ -110,7 +114,7 @@ $(document).ready(async function(){
     center: latLng,
     zoom: zoom,
     });
-
+  map.addControl(new mapboxgl.NavigationControl(), 'bottom-left');
   sites.forEach((item, i) => {
     var latlng = {lat: parseFloat(item["LAT"]), lon: parseFloat(item["LNG"])};
     var marker = new mapboxgl.Marker({

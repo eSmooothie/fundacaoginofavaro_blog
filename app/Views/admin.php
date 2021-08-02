@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="<?php echo base_url(); ?>/assets/css/Navigation-Clean.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>/assets/css/untitled.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.ckeditor.com/ckeditor5/11.0.1/classic/ckeditor.js"></script>
 </head>
 
 <body>
@@ -66,7 +67,7 @@
                         </div>
                         <div style="margin-top: 20px;">
                           <label class="form-label">Description:</label>
-                          <textarea class="form-control form-control-lg" spellcheck="true" wrap="soft" name="description"></textarea></div>
+                          <textarea class="form-control form-control-lg" spellcheck="true" wrap="hard" name="description" id="editor"></textarea></div>
                         <div style="margin-top: 20px;">
                           <label class="form-label">Add image:</label>
                           <input class="" type="file" name="site_img[]" id="addImg1" accept="image/jpeg, image/x-png" multiple >
@@ -119,5 +120,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
     <script type="module" src="<?php echo base_url(); ?>/assets/js/admin_script.js" charset="utf-8"></script>
 </body>
-
+<script>
+    ClassicEditor
+        .create( document.querySelector( '#editor' ) )
+        .catch( error => {
+            console.error( error );
+        } );
+</script>
 </html>
