@@ -29,6 +29,7 @@ function loadSites(siteList){
 }
 
 async function getSiteImages(siteID){
+  var response;
   return response = await $.ajax({
     type: 'get',
     url: url + "get/image/site/",
@@ -77,7 +78,7 @@ async function renderSite(site){
 
 
 $(document).ready(async function(){
-  var BING_KEY = 'AuhiCJHlGzhg93IqUH_oCpl_-ZUrIE6SPftlyGYUvr9Amx5nzA-WqGcPquyFZl4L';
+
   var sites = await getSites();
 
   var currentURL = window.location.href.split("/");
@@ -93,21 +94,33 @@ $(document).ready(async function(){
         return;
       }
     });
-    var LatLng = [parseFloat(site["LAT"]), parseFloat(site["LNG"])];
+    var latLng = {lat: parseFloat(site["LAT"]), lon: parseFloat(site["LNG"])};
     var zoom = 17;
   }else{
     document.getElementById('siteImage').src = url + "image/flag.png";
-    var LatLng = [-8.8742, 125.7275 ]; // location
+    var latLng = {lon:125.7275, lat:-8.8742}; // location
     var zoom = 9;
   }
 
-  var mymap = L.map('map').setView(LatLng, zoom);
+  mapboxgl.accessToken = 'pk.eyJ1IjoiZXNtb29vdGhpZWUiLCJhIjoiY2tydTYxYWU0M3BxajJ2cGV6MzdoOHZ0MCJ9._B7pyw5yyCO8B9qEiS7f_w';
 
+  var map = new mapboxgl.Map({
+    container: 'map',
+    style: 'mapbox://styles/esmooothiee/ckru6el773i6218mn3dn0lav5',
+    center: latLng,
+    zoom: zoom,
+    });
 
   sites.forEach((item, i) => {
-    var LatLng = [parseFloat(item["LAT"]),parseFloat(item["LNG"])];
-    L.marker(LatLng).addTo(mymap).bindPopup(item["NAME"]);
+    var latlng = {lat: parseFloat(item["LAT"]), lon: parseFloat(item["LNG"])};
+    var marker = new mapboxgl.Marker({
+      color: "#f86767",
+      draggable: true
+      }).setLngLat(latlng)
+      .addTo(map);
+    marker.getElement().addEventListener('click', () => {
+      window.location.href = url + "explore/site/" + item['ID'];
+    });
   });
 
-  var binglayer = L.tileLayer.bing(BING_KEY).addTo(mymap);
 });

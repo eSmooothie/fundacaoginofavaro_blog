@@ -23,6 +23,13 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=Promise"></script>
     <script src="<?php echo base_url(); ?>/assets/js/leaflet-bing-layer.js"></script>
+
+
+
+
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
+
 </head>
 
 <body class="h-100 w-100" style="background: rgb(255,255,255);overflow-x: hidden;">
@@ -31,18 +38,18 @@
         <div class="col-xl-2 col-sm-3 overflow-auto vh-100" style="background: #fcfcfc;padding: 0px 0px 0px 12px;">
           <div class="d-flex w-100">
             <a href="/" class="btn btn-white"><i class="fas fa-arrow-left" style="font-size: 12px;"></i></a>
+          </div>
+          <img id="siteImage" style="height: 200px;width: 100%;" height="200px" width="100%">
+            <p id="welcomeText" class="mt-1 h5" style="padding-left: 15px;padding-top:15px;">Welcome to Timor Leste</p>
             <div class="dropdown w-100">
-
-              <button class="btn btn-secondary dropdown-toggle w-100" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                Sites
+              <button class="btn btn-secondary dropdown-toggle text-wrap" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                Fundação Gino Fávaro Promotional Sites
               </button>
               <ul class="dropdown-menu w-100" aria-labelledby="dropdownMenuButton1" id="siteList">
                 <li><a class="dropdown-item " href="/explore">All</a></li>
               </ul>
-              </div>
-          </div>
-          <img id="siteImage" style="height: 200px;width: 100%;" height="200px" width="100%">
-            <p id="siteName" class="mt-1 h5" style="padding-left: 15px;padding-top:15px;">Welcome to Timor Leste</p>
+            </div>
+            <p id="siteName" class="mt-5 h5" style="padding-left: 15px;padding-top:15px;"></p>
             <article class="text-break pt-2 mt-1 w-100 d-none" id="siteInfo" style="font-size: 16px;padding-left: 15px;text-align: justify;padding-right: 12px;">
                 <div><span style="font-size: 18px;">Information:</span>
                     <div class="d-flex flex-row mt-2"><i class="fas fa-map-marker-alt" style="font-size: 25px;"></i>
@@ -51,7 +58,6 @@
                 </div>
                 <div class="mt-4 d-none" id="siteDescDiv"><span style="font-size: 15px;">Description:</span><br>
                   <span id="siteDescription">
-
                     <br><br><br></span></div>
             </article>
             <div class="d-none" id="sitePhotos">
@@ -73,8 +79,9 @@
 
     <script src="<?php echo base_url();?>/assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
-    <script type="module" src="<?php echo base_url();?>/assets/js/map_loader.js"></script>
+    <script type="module" src="<?php echo base_url();?>/assets/js/map_loader.js?v=1"></script>
     <script src="<?php echo base_url();?>/assets/js/Lightbox-Gallery.js"></script>
+
 </body>
 
 </html>
