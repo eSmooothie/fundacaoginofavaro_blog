@@ -66,6 +66,8 @@ php_errors.log
 
 public_html/uploads/*
 
+invoices/*
+
 #-------------------------
 # User Guide Temp Files
 #-------------------------
