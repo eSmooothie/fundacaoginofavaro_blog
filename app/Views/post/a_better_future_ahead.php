@@ -52,7 +52,7 @@
                     <p style="text-align:justify;">Now, let us chat about the Foundation and its essence to the people of Timor-Leste.
                       The Foundation has three main objectives: <br><span class="fst-italic">(The Following are from the words of Mr. Gino Favaro)</span></p>
                       <div class="d-flex justify-content-center">
-                        <img src="https://via.placeholder.com/500x350" alt="">
+                        <img src="<?php echo base_url(); ?>/image/blog_imgs/1.png" alt="" style="width:500px; height: 350px;">
                       </div>
                     <figure>
                         <blockquote class="blockquote">
@@ -71,7 +71,7 @@
                     <p style="text-align:justify;">This is where the Fundação wishes to seek donor funding to develop these special locations so that they are made available for all to see and explore and use. These hotels with shopping centers and international standard, tourism facilities will be available to local and international travelers’ and will be specially built as practical training facilities for Timorese Students, so as to enhance the professional level of students wanting to enter the industry. It is intended that these student training facilities will have suitable student accommodation, other student facilities, food canteens, so that the students can Learn, Work and Rest in the knowledge that they are being respected as potentially important people of the industry. It is the intentions of the Fundação Gino Favaro to fully co-operate with the Ministry of Education and the Ministry of Tourism and Trade and other relevant Ministries of the Government of Timor-Leste, in order to achieve these goals.
                     </p>
 
-                    <div class="" style="height:500px;">
+                    <div class="" style="height:250px;">
                       <div id="carousel1" class="carousel slide" data-bs-ride="carousel" >
                         <div class="carousel-indicators">
                           <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -80,13 +80,10 @@
                         </div>
                         <div class="carousel-inner" style="background-color:#D8D8D8;">
                           <div class="carousel-item active">
-                            <img src="https://via.placeholder.com/200x250" class="d-block img-fluid mx-auto w-50" alt="...">
+                            <img src="<?php echo base_url(); ?>/image/blog_imgs/2.jpg" class="d-block img-fluid mx-auto w-50" alt="...">
                           </div>
                           <div class="carousel-item">
-                            <img src="https://via.placeholder.com/200x250" class="d-block img-fluid mx-auto w-50" alt="...">
-                          </div>
-                          <div class="carousel-item">
-                            <img src="https://via.placeholder.com/200x250" class="d-block img-fluid mx-auto w-50" alt="...">
+                            <img src="<?php echo base_url(); ?>/image/blog_imgs/3.jpg" class="d-block img-fluid mx-auto w-50" alt="...">
                           </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
@@ -118,16 +115,19 @@
                           <button type="button" data-bs-target="#carousel2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                           <button type="button" data-bs-target="#carousel2" data-bs-slide-to="1" aria-label="Slide 2"></button>
                           <button type="button" data-bs-target="#carousel2" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                        </div>
+                          <button type="button" data-bs-target="#carousel2" data-bs-slide-to="3" aria-label="Slide 4"></button>                        </div>
                         <div class="carousel-inner" style="background-color:#D8D8D8;">
                           <div class="carousel-item active">
-                            <img src="https://via.placeholder.com/200x250" class="d-block img-fluid mx-auto w-50" alt="...">
+                            <img src="<?php echo base_url(); ?>/image/blog_imgs/4.png" class="d-block img-fluid mx-auto w-50" alt="...">
                           </div>
                           <div class="carousel-item">
-                            <img src="https://via.placeholder.com/200x250" class="d-block img-fluid mx-auto w-50" alt="...">
+                            <img src="<?php echo base_url(); ?>/image/blog_imgs/5.png" class="d-block img-fluid mx-auto w-50" alt="...">
+                          </div>
+                          <div class="carousel-item ">
+                            <img src="<?php echo base_url(); ?>/image/blog_imgs/6.png" class="d-block img-fluid mx-auto w-50" alt="...">
                           </div>
                           <div class="carousel-item">
-                            <img src="https://via.placeholder.com/200x250" class="d-block img-fluid mx-auto w-50" alt="...">
+                            <img src="<?php echo base_url(); ?>/image/blog_imgs/7.png" class="d-block img-fluid mx-auto w-50" alt="...">
                           </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
@@ -148,10 +148,46 @@
 
                     <p style="text-align:justify;">The Fundação desires to seek permission from the Timor-Leste Government to install & operate Natural Gas pipes and connections for cooking and for hot water heating to each household in each country side Municipality of Timor-Leste. This Natural Gas to the people forms of Social Support aspect is a multi-pronged initiative that we shall discuss. </p>
                     <p style="text-align:justify;">We shall start with Environmental Issues and Climate Change Aspects at the forefront of the minds of many International Governments and of course hundreds of millions of people world- wide, the Fundação sees that these issues need serious attention.</p>
+                    <div class="d-flex justify-content-center">
+                      <img src="<?php echo base_url(); ?>/image/blog_imgs/9.jpg" alt="" class="img-fluid">
+                    </div>
                     <p style="text-align:justify;">Timor-Leste a tiny nation in the world can lend its commitment to climate change aspects by assisting the people in changing the way the country people cook and heat water. Currently they use wood by cutting trees and thus weakening the roots systems of the mountain sides which results in landslides in the raining season and further destroying houses in the pathway of the landslides. We all know that burning of wood creates smokes and thus toxins are released from the wood in the process of creating a heat suitable for cooking. Cooking with natural gas can dramatically improve the health of many women and children as they tend to spend much time in the kitchen preparing meals.</p>
 
-                    <div class="d-flex justify-content-center">
-                      <img src="https://via.placeholder.com/500x350" alt="">
+                    <div class="" style="height:450px;">
+                      <div id="carousel3" class="carousel slide" data-bs-ride="carousel" >
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carousel3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carousel3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carousel3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                          <button type="button" data-bs-target="#carousel3" data-bs-slide-to="3" aria-label="Slide 4"></button>                        </div>
+                        <div class="carousel-inner" style="background-color:#D8D8D8;">
+                          <div class="carousel-item active">
+                            <img src="<?php echo base_url(); ?>/image/blog_imgs/10.jpg" class="d-block img-fluid mx-auto w-50" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="<?php echo base_url(); ?>/image/blog_imgs/11.jpg" class="d-block img-fluid mx-auto w-50" alt="...">
+                          </div>
+                          <div class="carousel-item ">
+                            <img src="<?php echo base_url(); ?>/image/blog_imgs/12.jpg" class="d-block img-fluid mx-auto w-50" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="<?php echo base_url(); ?>/image/blog_imgs/13.jpg" class="d-block img-fluid mx-auto w-50" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel3" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carousel3" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                      <figure>
+                          <blockquote class="blockquote">
+                              <p class="mb-0 text-center" style="text-align:justify;">Here is a picture of a family that uses wood in cooking their meals.</p>
+                          </blockquote>
+                      </figure>
                     </div>
                     <figure>
                         <blockquote class="blockquote">
@@ -161,6 +197,65 @@
 
                     <p style="text-align:justify;">Another aspect of Fundación’s desire to bring natural gas to the people outside of environmental issues and clean air is the preservation of the trees and protection of people’s property from landslides as well as the economics of using natural piped gas. Cooking with Natural Gas is more cost effective than cooking with wood in Timor-Leste although up until now the country people can purchase wood bundles from as low as us $0.50. This small out of pocket money has a huge aspect on their budget but when you multiply this small amount to the capacity of a 9kg LP Gas cylinder we discover the actual cost of cooking with wood is much greater than cooking with LP Gas. Natural Gas is much economical than LP Gas. As life is not free, the Fundação shall supply Prepaid meters with credit (pulsa) payments as low as us$0.50 thus assisting the country people convert from fire wood to using Natural Gas. The Fundação thus seeks Donor funding for the   purchase and installation of the Natural Gas Network, storage facilities, pipes, meters, valves and the very first natural gas stove to each household. Thus, the installations charges and all associated materials costs do not need to be passed onto the poorest people of the tiny nation. We all respect that a Foundation is a not-for-profit organization and any residue of funds always returns to the people through the objectives of the Fundação.</p>
 
+                    <div class="" style="height:900px;">
+                      <div id="carousel4" class="carousel slide" data-bs-ride="carousel" >
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carousel4" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carousel4" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carousel4" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                          <button type="button" data-bs-target="#carousel4" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carousel4" data-bs-slide-to="4" aria-label="Slide 5"></button>                         </div>
+                        <div class="carousel-inner" style="background-color:#D8D8D8;">
+                          <div class="carousel-item active">
+                            <img src="<?php echo base_url(); ?>/image/blog_imgs/14.jpg" class="d-block img-fluid mx-auto w-50" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="<?php echo base_url(); ?>/image/blog_imgs/15.jpg" class="d-block img-fluid mx-auto w-50" alt="...">
+                          </div>
+                          <div class="carousel-item ">
+                            <img src="<?php echo base_url(); ?>/image/blog_imgs/16.jpg" class="d-block img-fluid mx-auto w-50" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="<?php echo base_url(); ?>/image/blog_imgs/17.jpg" class="d-block img-fluid mx-auto w-50" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="<?php echo base_url(); ?>/image/blog_imgs/18.jpg" class="d-block img-fluid mx-auto w-50" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="<?php echo base_url(); ?>/image/blog_imgs/19.jpg" class="d-block img-fluid mx-auto w-50" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel4" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carousel4" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                      <figure>
+                          <blockquote class="blockquote">
+                              <p class="mb-0 text-center" style="text-align:justify;">Timorese Women Carrying their wood</p>
+                          </blockquote>
+                      </figure>
+                      <figure>
+                          <blockquote class="blockquote">
+                              <p class="mb-0 text-center" style="text-align:justify;">
+                                We believe it is a Timorese culture for women to collect and carry the wood to their houses. The weights are between 15 to 30 kilos that they must carry on their head at any one time.
+                              </p>
+                          </blockquote>
+                      </figure>
+                      <figure>
+                          <blockquote class="blockquote">
+                              <p class="mb-0 text-center" style="text-align:justify;">
+                                We don’t want to change their culture but we would like to help these women with the burden of carrying these heavy weights of wood on their heads.
+Would you like your daughters to carry these heavy weights on their heads from the fields to the house just so they can cook?
+                              </p>
+                          </blockquote>
+                      </figure>
+                    </div>
+
                     <p style="text-align:justify;">In addition, DeepGulf, C-Gas and Fundação Gino Favaro NGO of Timor-Leste have teamed together to distribute a portion of the landed gas to municipalities, commercial and industrial concerns to aid in economic and industrial development of Timor-Leste and also for residential, cooking and water heating usage. They want to do this firstly in the Districts, so that it will reduce deforestation and positively preserve the environment and improve the health of the people by not having wood smoke in their kitchens.</p>
 
                     <p style="text-align:justify;">Through this Natural Gas, Transportation, Storage, and Supply Network, the Fundação Gino Favaro intends to draw on this supply network to install & operate Natural Gas connections to each household in each the municipality. Converting the Electricity Power Supply locations within Timor-Leste to Natural Gas has many benefits, basically, to reduce pollution from using diesel fuels. Natural Gas is more economical to acquire than diesel, Natural Gas offers better maintenance costs to the Generator Engines than Diesel, and so on.</p>
@@ -168,7 +263,7 @@
                     <p style="text-align:justify;">Therefore, the Fundação Gino Favaro is an excellent partner to have since its revenue base is to assist and support the vulnerable Timorese in the community with other aims such as to assist educational activities in support of developing students skills and in promoting Timor-Leste to the world.</p>
 
                     <div class="d-flex justify-content-center">
-                      <img src="https://via.placeholder.com/500x350" alt="">
+                      <img src="<?php echo base_url(); ?>/image/blog_imgs/20.png" alt="" style="width:500px; height: 350px;">
                     </div>
                     <figure>
                         <blockquote class="blockquote">
@@ -177,6 +272,66 @@
                     </figure>
 
                     <p style="text-align:justify;">The Fundação will be seeking donor funding for the complete installation and associated materials costs including storage facilities, pumps, pipes and prepaid meters. For those of us that have fresh water in our house, we are very fortunate we don’t have to carry heavy loads of water on our heads and in our hands for such long periods of time every day. How nice would it be for the country people of Timor-Leste the poorest people of Timor-Leste to enjoy such a luxury of enjoying a hot shower at home with fresh water heated by natural gas. Can you imagine the smiles and happiness of these people and the excitement of the family members that currently walks every day to collect the water for cooking and showering? How much could their life be changed by these piped natural gas and fresh water to their houses. Just a couple of thoughts tells it all.</p>
+
+                    <div class="" style="height:550px;">
+                      <div id="carousel5" class="carousel slide" data-bs-ride="carousel" >
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carousel5" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carousel5" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carousel5" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                          <button type="button" data-bs-target="#carousel5" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                          <button type="button" data-bs-target="#carousel5" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                          <button type="button" data-bs-target="#carousel5" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                          <button type="button" data-bs-target="#carousel5" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                          <button type="button" data-bs-target="#carousel5" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                          <button type="button" data-bs-target="#carousel5" data-bs-slide-to="8" aria-label="Slide 9"></button>                         </div>
+                        <div class="carousel-inner" style="background-color:#D8D8D8;">
+                          <div class="carousel-item active">
+                            <img src="<?php echo base_url(); ?>/image/blog_imgs/21.jpg" class="d-block img-fluid mx-auto w-50" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="<?php echo base_url(); ?>/image/blog_imgs/22.jpg" class="d-block img-fluid mx-auto w-50" alt="...">
+                          </div>
+                          <div class="carousel-item ">
+                            <img src="<?php echo base_url(); ?>/image/blog_imgs/23.jpg" class="d-block img-fluid mx-auto w-50" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="<?php echo base_url(); ?>/image/blog_imgs/24.jpg" class="d-block img-fluid mx-auto w-50" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="<?php echo base_url(); ?>/image/blog_imgs/25.jpg" class="d-block img-fluid mx-auto w-50" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="<?php echo base_url(); ?>/image/blog_imgs/26.jpg" class="d-block img-fluid mx-auto w-50" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="<?php echo base_url(); ?>/image/blog_imgs/27.jpg" class="d-block img-fluid mx-auto w-50" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="<?php echo base_url(); ?>/image/blog_imgs/28.jpg" class="d-block img-fluid mx-auto w-50" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="<?php echo base_url(); ?>/image/blog_imgs/29.jpg" class="d-block img-fluid mx-auto w-50" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel5" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carousel5" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                      <figure>
+                          <blockquote class="blockquote">
+                              <p class="mb-0 text-center" style="text-align:justify;">
+                                These girls are aged 12 years old and the bigger girl is 19 years old. Each of those 5 liter bottles weighs 5 kg, so each young lady is carrying 15 kg of weight on them. Would you want your daughter to be burdened with 15 kg of weight twice a day up to 2 hrs at a time just to have some water for washing and cooking?
+                              </p>
+                          </blockquote>
+                      </figure>
+
+                    </div>
 
                     <p style="text-align:justify;">The objectives of Fundação Gino Favaro we have talked about so far seem very essential to the improvement of the quality of life to all those people that will receive a change in life due to the installation of natural gas and fresh water to each house and further appreciate that students will also enjoy the benefits of the specialized practical training facilities that will be on offer and I believe that the students that pass the written tests and practical exams of these programs are headed for a great future, possibly a great chance of enjoying long term employment with the Fundação’s many new hotels or tourism locations  or even working with the natural gas and fresh water network systems, not to mention all of the other projects we have not discussed as yet. We can see from these desires of the Fundação the future students could have a quality job in the industry and feel confident and secure in themselves that they are professional in their chosen field. And that they thoroughly understand their new responsibilities and commitments and are able to carry out their new job with expertise.
                     </p>
