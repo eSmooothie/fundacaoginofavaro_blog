@@ -1,48 +1,4 @@
-<!DOCTYPE html>
-<html>
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Blog Post - Fundação Gino Fávaro</title>
-    <link rel="stylesheet" href="<?php echo base_url(); ?>/assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
-    <link rel="stylesheet" href="<?php echo base_url(); ?>/assets/fonts/fontawesome-all.min.css">
-    <link rel="stylesheet" href="<?php echo base_url(); ?>/assets/fonts/font-awesome.min.css">
-    <link rel="stylesheet" href="<?php echo base_url(); ?>/assets/fonts/fontawesome5-overrides.min.css">
-    <link rel="stylesheet" href="<?php echo base_url(); ?>/assets/css/Contact-Form-Clean.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css">
-    <link rel="stylesheet" href="<?php echo base_url(); ?>/assets/css/Lightbox-Gallery.css">
-    <link rel="stylesheet" href="<?php echo base_url(); ?>/assets/css/untitled.css">
-</head>
-
-<body>
-    <nav class="navbar navbar-light navbar-expand-lg fixed-top" id="mainNav">
-        <div class="container-fluid"><a class="navbar-brand" href="/"><strong>Fundação Gino Fávaro</strong><br></a><button data-bs-toggle="collapse" data-bs-target="#navbarResponsive" class="navbar-toggler" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ms-auto">
-                  <a href="/" class="btn navbar-brand">Home</a>
-                </ul>
-                <div class="d-flex align-items-center">
-                  <a href="<?php echo base_url(); ?>/explore/" class="btn navbar-brand" >Explore TIMOR-leste</a>
-                  <span class="text-white" style="margin-left:20px;"><a href="<?php echo base_url(); ?>/admin/login" class="navbar-brand"><i class="fa fa-lock"></i></a></span>
-                </div>
-            </div>
-        </div>
-    </nav>
-    <header class="masthead" style="background-image:url('assets/img/post-bg.jpg');">
-        <div class="overlay"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-10 col-lg-8 mx-auto position-relative">
-                    <div class="post-heading">
-                        <h1>Timor-Leste: A Better Future&nbsp;Ahead</h1><span class="meta">Posted by&nbsp;Francis Ian Montecalvo</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
     <article>
         <div class="container">
             <div class="row">
@@ -71,7 +27,7 @@
                     <p style="text-align:justify;">This is where the Fundação wishes to seek donor funding to develop these special locations so that they are made available for all to see and explore and use. These hotels with shopping centers and international standard, tourism facilities will be available to local and international travelers’ and will be specially built as practical training facilities for Timorese Students, so as to enhance the professional level of students wanting to enter the industry. It is intended that these student training facilities will have suitable student accommodation, other student facilities, food canteens, so that the students can Learn, Work and Rest in the knowledge that they are being respected as potentially important people of the industry. It is the intentions of the Fundação Gino Favaro to fully co-operate with the Ministry of Education and the Ministry of Tourism and Trade and other relevant Ministries of the Government of Timor-Leste, in order to achieve these goals.
                     </p>
 
-                    <div class="" style="height:250px;">
+                    <div class="" style="height:300px;">
                       <div id="carousel1" class="carousel slide" data-bs-ride="carousel" >
                         <div class="carousel-indicators">
                           <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -250,7 +206,7 @@
                           <blockquote class="blockquote">
                               <p class="mb-0 text-center" style="text-align:justify;">
                                 We don’t want to change their culture but we would like to help these women with the burden of carrying these heavy weights of wood on their heads.
-Would you like your daughters to carry these heavy weights on their heads from the fields to the house just so they can cook?
+       Would you like your daughters to carry these heavy weights on their heads from the fields to the house just so they can cook?
                               </p>
                           </blockquote>
                       </figure>
@@ -377,39 +333,3 @@ Would you like your daughters to carry these heavy weights on their heads from t
             </div>
         </div>
     </article>
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-10 col-lg-8 mx-auto">
-                  <ul class="list-group">
-                    <li class="list-group-item mb-5">Contact Us:
-                      <p class="m-2"><i class="fa fa-envelope-o"></i> Email: <a href="mailto:fundacaoginofavaro@gmail.com" style="text-decoration:none;">fundacaoginofavaro@gmail.com</a></p>
-                      <div class="d-flex justify-content-around m-5">
-                        <div class="">
-                          <p class="m-0">President Director</p>
-                          <p class="m-0">Mr. Gino Favaro</p>
-                          <p class="m-0"><i class="fa fa-phone"></i> : +670 772 31058</p>
-                        </div>
-                        <div class="">
-                          <p class="m-0">President Director of Administration</p>
-                          <p class="m-0">Dr. Joao Concalves</p>
-                          <p class="m-0"><i class="fa fa-phone"></i> : +670 782 58770</p>
-                        </div>
-                      </div>
-
-
-                    </li>
-                  </ul>
-                    <p class="text-muted copyright">This website develop by: <a href="mailto:sherwin.sandoval026@gmail.com" style="text-decoration:none;">Sherwin D. Sandoval</a></p>
-                    <p class="text-muted copyright">Blog information develop by: Francis Ian Montecalvo</p>
-                    <p class="text-muted copyright">Copyright&nbsp;©&nbsp;Fundação Gino Fávaro 2021</p>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <script src="<?php echo base_url(); ?>/assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
-    <script src="<?php echo base_url(); ?>/assets/js/clean-blog.js"></script>
-</body>
-
-</html>

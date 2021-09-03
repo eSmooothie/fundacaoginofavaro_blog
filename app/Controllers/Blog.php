@@ -15,11 +15,20 @@ class Blog extends BaseController{
       5 => 'the_potential_development_of_soibada',
     ];
 
-    $data = [
-      'title' => $post[$post_no],
+    $titles = [
+      1 => 'Timor-Leste: A Better Future&nbsp;Ahead',
+      2 => 'Deep Gulf and Fundação Gino Fávaro partnership',
+      3 => 'Energy for Our People',
+      4 => 'Signing of MOU',
+      5 => 'The Potential Development of Soibada',
     ];
 
-    return view('post/'.$post[$post_no],$data);
+    $data = [
+      'title' => $titles[$post_no],
+    ];
+    echo view("blog_layout/header.php",$data);
+    echo view('post/'.$post[$post_no]);
+    echo view('blog_layout/footer.php');
   }
 
 }
